@@ -6,6 +6,9 @@ import TabButton from './components/TabButton/TabButton.jsx';
 
 //Project using React; 
 function App() {
+    function handleSelect(){
+      console.log('Hello World!');
+    }
   return (
     <div>
       <Header /> {/*Calls function Header */}
@@ -22,11 +25,12 @@ function App() {
         <section id="examples">
           <h2>Examples </h2>
           <menu>
-            <TabButton> Components </TabButton>
-            <TabButton> JSX </TabButton>
-            <TabButton> Props </TabButton>
-            <TabButton> State </TabButton>
+            <TabButton onClick={handleSelect}> Components </TabButton>
+            <TabButton onClick={handleSelect}> JSX </TabButton>
+            <TabButton onClick={handleSelect}> Props </TabButton>
+            <TabButton onClick={handleSelect}> State </TabButton>
           </menu>
+          ????
         </section>
       </main>
     </div>

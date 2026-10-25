@@ -10,7 +10,5 @@ function CoreConcept({title, description, image}){ {/*Destructuring props*  -- p
             <p>{description}</p>
         </li>
     );
-
 }
-
 export default CoreConcept;
