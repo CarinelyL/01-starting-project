@@ -1,3 +1,5 @@
+import './CoreConcept.css';
+
 //props allows you to pass data through components
 function CoreConcept({title, description, image}){ {/*Destructuring props*  -- props = {title, description, image}*/}
     return(
