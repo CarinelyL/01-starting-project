@@ -1,5 +1,5 @@
 const reactDescriptions = ['Fundamental', 'Crucial', 'Core'];
-import reactImg from './assets/react-core-concepts.png';
+import reactImg from '../assets/react-core-concepts.png'; //Go up a folder to assets
 function getRandomInt(max){
   return Math.floor(Math.random()*(max+1));
 }

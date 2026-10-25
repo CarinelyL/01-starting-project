@@ -1,6 +1,6 @@
-import Header from './Header.jsx'; //To get the file in the same folder
-import UserData from './UserData.jsx';
-import CoreConcept from './CoreConcept.jsx';
+import Header from './components/Header.jsx'; //To get the file in a different folder
+import UserData from './UserData.jsx';  //To get the file in the same folder
+import CoreConcept from './components/CoreConcept.jsx';
 import { CORE_CONCEPTS } from './data.js'; //Destructuring
 
 //Project using React; 
