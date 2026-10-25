@@ -22,9 +22,10 @@ function App() {
         <section id="examples">
           <h2>Examples </h2>
           <menu>
-            <TabButton> Item 1 </TabButton>
-            <TabButton> Item 2 </TabButton>
-            <TabButton> Item 3</TabButton>
+            <TabButton> Components </TabButton>
+            <TabButton> JSX </TabButton>
+            <TabButton> Props </TabButton>
+            <TabButton> State </TabButton>
           </menu>
         </section>
       </main>
