@@ -2,6 +2,7 @@ import Header from './components/Header/Header.jsx'; //To get the file in a diff
 // import UserData from './assets/UserData.jsx';  //To get the file in the same folder
 import CoreConcept from './components/CoreConcept/CoreConcept.jsx';
 import { CORE_CONCEPTS } from './assets/data.js'; //Destructuring
+import TabButton from './components/TabButton/TabButton.jsx';
 
 //Project using React; 
 function App() {
@@ -17,6 +18,14 @@ function App() {
           <CoreConcept {... CORE_CONCEPTS[2]}/>
           <CoreConcept {... CORE_CONCEPTS[3]}/>
           </ul>
+        </section>
+        <section id="examples">
+          <h2>Examples </h2>
+          <menu>
+            <TabButton> Item 1 </TabButton>
+            <TabButton> Item 2 </TabButton>
+            <TabButton> Item 3</TabButton>
+          </menu>
         </section>
       </main>
     </div>
